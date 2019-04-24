@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ion</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>sfg-pet-clinic</name>
     <description>SFG Pet Clinic Demo</description>
     <packaging>pom</packaging>
@@ -38,6 +38,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.3</version>
                 <configuration>
                     <goals>install</goals>
                 </configuration>
@@ -46,8 +47,8 @@
         </plugins>
     </build>
     <scm>
-        <developerConnection>scm:git:https://cucosion:3a57fdcb60a9f72da2ad0094637e23ec8d8b503f@github.com/cucosion/sfg-pet-clinic.git</developerConnection>
-      <tag>sfg-pet-clinic-0.0.1</tag>
+        <developerConnection>scm:git:git@github.com:cucosion/sfg-pet-clinic.git</developerConnection>
+      <tag>sfg-pet-clinic-0.0.2</tag>
   </scm>
 
 </project>
